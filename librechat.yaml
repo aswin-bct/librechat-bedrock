@@ -5,8 +5,10 @@ interface:
 
 endpoints:
   bedrock:
-    titleModel: "anthropic.claude-3-haiku-20240307-v1:0"
+    titleConvo: false
+    streamRate: 35
     availableRegions:
       - "us-east-1"
     models:
+      - "anthropic.claude-3-haiku-20240307-v1:0"
       - "anthropic.claude-3-5-sonnet-20240620-v1:0"
