@@ -12,3 +12,13 @@ endpoints:
     models:
       - "anthropic.claude-3-haiku-20240307-v1:0"
       - "anthropic.claude-3-5-sonnet-20240620-v1:0"
+  custom:
+    - name: "Ollama"
+      apiKey: "ollama"
+      baseURL: "https://m7op4p4fauu79r-11434.proxy.runpod.net/v1"
+      models:
+        default: ["llama3.2:3b", "llama3:8b"]
+        fetch: false
+      titleConvo: true
+      titleModel: "llama3.2:3b"
+      modelDisplayLabel: "Ollama"
